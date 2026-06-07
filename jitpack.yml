@@ -1,2 +1,2 @@
 install:
-  - ./gradlew clean -xtest -xlint publishToMavenLocal
+  - ./gradlew -xtest -xlint :tesseract4android:publishOpenmpPublicationToMavenLocal
